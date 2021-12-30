@@ -1,0 +1,4 @@
+# Abstraindo-um-Bootcamp-Usando-Orienta-o-a-Objetos-em-Java
+Essa é uma reprodução do projeto do bootcamp Spread Java Developer disponibilizado na plataforma da DIO.
+
+Nesse projeto eu desenvolvi as seguintes modificações: eu criei uma nova classe chamada Administrador com atributos nome e senha e com as responsabilidades de criar um bootcamp e um conteúdo; acrescentei o atributo senha na classe Dev; fiz um simples controle de autenticação, que dependendo do nome de usuário e senha direcionará para um menu de opções para os devs ou o Administrador; os menus foram feitos utilizando while recebendo true como parâmetro e switch com as opções dentro desse while, nos cases de sair fiz o while receber false para sair do loop infinito. Na classe administrador criei dois arraysList, um para conteúdos e outros para bootcamps, os conteúdos criados pelo administrador não são obrigatórios está num bootcamp.
